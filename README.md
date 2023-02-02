@@ -1,2 +1,2 @@
-# Python Learning
-Code snippets to understand various Python techniques
+# Learning
+Code snippets, notes to learn and understand various CS concepts
