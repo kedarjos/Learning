@@ -94,5 +94,9 @@ if __name__ == "__main__":
     print(f"Speed up line by line vs buffer = {speedup2}x")
 
 """
-
+All in on function execution time = 40.440192300011404 sec
+Line by line function execution time = 190.0849691000185 sec
+Buffer execution time = 64.13040620001266 sec
+Speed up line by line vs all in one = 4.70x
+Speed up line by line vs buffer = 2.96x
 """
