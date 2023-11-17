@@ -10,8 +10,8 @@
 ## The perfect strace commands:
 
 ````
-strace -f -s 512 -o /tmp/straceout -v -tt -T -yy -q <command>
-strace -f -s 512 -o /tmp/straceout -v -tt -T -yy -q -p <pid>
+strace -f -s 512 -o /tmp/straceout -v -tt -T -C -yy -q <command>
+strace -f -s 512 -o /tmp/straceout -v -tt -T -C -yy -q -p <pid>
 ````
 
     -f => follow children
@@ -21,6 +21,7 @@ strace -f -s 512 -o /tmp/straceout -v -tt -T -yy -q -p <pid>
     -T => show time spent inside systemcall
     -y => print file descriptor associated
     -v => verbose mode
+    -C => Using "-c" shows summary only, use -C for summary plus regular output
 
 ## Some important system calls:
 
